@@ -29,9 +29,7 @@ def require_module(*modules):
 
     if commands:
         from pip.locations import virtualenv_no_global
-
-        print("Update in progress: pip install %s --user" % " ".join(commands))
-
+        
         if virtualenv_no_global():
             pip.main(["install"] + commands)
         else:
