@@ -1,6 +1,8 @@
 # require
 a small py2/py3 library to require python modules at runtime.
 
+modules will be installed using PIP.
+
 you can supply both a tuple with modulename and version or a single module name.
 
 ```python
