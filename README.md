@@ -15,7 +15,7 @@ require_module(["django", '1.8'], ["reportlab", "3.2.0"])
 
 or you can use the decorator to require modules on function call
 
-```
+```python
 from require import require
 
 @require('django', 'reportlab==3.2.0')
